@@ -9,15 +9,15 @@ export class ApiService {
     constructor(private http: HttpClient) { }
 
     getEpisodes() {
-        return this.http.get('https://8100-af287837-f97f-4d02-b72c-dc4087fbbf89.ws-eu01.gitpod.io/assets/episodes.json')
+        return this.http.get('https://8100-mikhailcct-mobdevca3-4r1lzru6qyb.ws-eu44.gitpod.io/assets/episodes.json')
     }
 
     getEpisode(id) {
-        return this.http.get(`https://8100-af287837-f97f-4d02-b72c-dc4087fbbf89.ws-eu01.gitpod.io/assets/episode.json`);
+        return this.http.get(`https://8100-mikhailcct-mobdevca3-4r1lzru6qyb.ws-eu44.gitpod.io/assets/episode.json`);
     }
 
     getCharacters() {
-        return this.http.get('https://8100-af287837-f97f-4d02-b72c-dc4087fbbf89.ws-eu01.gitpod.io/assets/characters.json')
+        return this.http.get('https://8100-mikhailcct-mobdevca3-4r1lzru6qyb.ws-eu44.gitpod.io/assets/characters.json')
     }
 
     getCharacter(id) {
